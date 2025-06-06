@@ -16,7 +16,7 @@ const Profile = () => {
     useEffect(() => {
         const fetchProfile = async () => {
             try {
-                const res = await fetch("http://localhost:5000/api/profile", {
+                const res = await fetch("https://jobsearcherbackend.onrender.com/api/profile", {
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },
